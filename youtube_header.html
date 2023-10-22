@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube Header</title>
+
+    <style>
+
+      .header {
+        background-color: #0f0f0f;
+        height: 56px;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .header-left {
+        margin-left: 25px;
+        display: flex;
+        align-items: center;
+      }
+
+      .header-left-center {
+        flex: 0.24;
+      }
+
+      .menu-icon {
+        width: 24px;
+        height: 30px;
+        cursor: pointer;
+      }
+
+      .yt-icon {
+        margin-left: 16px;
+        height: 70%;
+        padding-bottom: 10px;
+        cursor: pointer;
+      
+      }
+
+      .header-center {       
+        flex: 1.03;
+        display: flex;
+        align-items: center;
+        margin-right: 30px;
+        margin-left: 30px;
+
+      }
+
+      .search-bar {
+        flex: 1;
+        height: 36px;
+        padding-left: 16px;
+        padding-bottom: 2px;
+        font-size: 15px;
+        color: white;
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 20px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: #222222;
+        background-color: #121212;
+        caret-color: gray;
+        cursor: text;
+        width: 0;
+        
+      }
+
+      .search-bar:focus {
+        outline: none;
+        border-color: #1c62b9;
+      }
+
+      .search-bar::placeholder {
+        font-family: Roboto, Arial;
+        font-size: 16px;
+      }
+
+
+      .search-button {
+        cursor: pointer;
+        height: 41px;
+        width: 65px;
+        border-bottom-right-radius: 20px;
+        border-top-right-radius: 20px;
+        background-color: #222222;
+        border: none;
+
+      }
+
+      .search-icon {
+        height: 26px;
+        padding-top: 2px;
+        padding-right: ;
+      }
+
+      .voice-button {
+        margin-left: 15px;
+        cursor: pointer;
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        border: none;
+        background-color: #272727;
+
+      }
+
+      .voice-button:hover {
+        background-color: #3d3d3d;
+      }
+
+      .voice-icon {
+        height: 24px;
+        padding-top: 2.5px;
+
+      }
+
+      .header-right {
+        margin-right: 45px;
+        flex: 0.43;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+      }
+
+      .video-button {
+        margin-right: 20px;
+        cursor: pointer;
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        border: none;
+        background-color: #0f0f0f;
+
+      }
+
+      .video-button:hover {
+        background-color: #272727;
+      }
+
+      .video-icon {
+        height: 24px;
+        padding-top: 2.5px;
+
+      }
+
+      .notification-button {
+        cursor: pointer;
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        border: none;
+        background-color: #0f0f0f;
+
+      }
+
+      .notification-button:hover {
+        background-color: #272727;
+      }
+
+      .notification-icon {
+        height: 24px;
+        padding-top: 1px;
+
+      }
+
+      .channel-picture {
+        margin-left: 20px;
+        height: 32px;
+        width: 32px;
+        cursor: pointer;
+        border-radius: 50%;
+      }
+
+    </style>
+  </head>
+
+  <body style="margin-left: 0; margin-right: 0; margin-top: 0;">
+
+    <div class="header">
+      
+      <div class="header-left">
+        <img class="menu-icon" src="icons/outline_menu_white_24dp.png">
+        <img class="yt-icon" src="icons/youtube logo.jpg">
+      </div>
+
+      <div class="header-left-center">
+    
+      </div>
+
+      <div class="header-center">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search-icon" src="icons/outline_search_white_24dp_big.png">
+        </button>
+
+        <button class="voice-button">
+          <img class="voice-icon" src="icons/outline_mic_white_24dp.png">
+        </button>
+        
+      </div>
+
+      <div class="header-right">
+        <button class="video-button">
+          <img class="video-icon" src="icons/outline_videocam_white_24dp.png">
+        </button>
+
+        <button class="notification-button">
+          <img class="notification-icon" src="icons/outline_notifications_white_24dp.png">
+        </button>
+        
+          <img class="channel-picture" src="Profile Pics/channels4_profile.jpg">
+
+        
+      </div>
+
+    </div>
+
+
+
+
+  </body>
+</html>
